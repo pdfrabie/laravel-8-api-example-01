@@ -8,10 +8,10 @@ Internally through guzzle they point to [openbrewerydb](https://www.openbreweryd
 ...\routes\api.php
 
 - /breweries
-( http://localhost/api/breweries )
+( list: http://localhost/api/breweries )
 
 - /breweries/{brewery}
-( http://localhost/api/breweries/101 )
+( search: http://localhost/api/breweries/101 )
 
 
 ## Available Tests
