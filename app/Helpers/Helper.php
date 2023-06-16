@@ -5,7 +5,7 @@ namespace App\Helpers;
 class Helper
 {
     public function nestAddress($data) {
-        $newStructure = collect( $data )
+        return collect( $data )
             ->map(function ($value) {
                 return (object) [
                     'id' => $value->id,
@@ -25,7 +25,5 @@ class Helper
                     ]
                 ];
             });
-
-        return $newStructure;
     }
 }
