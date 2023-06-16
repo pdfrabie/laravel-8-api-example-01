@@ -13,6 +13,8 @@ Internally through guzzle they point to [openbrewerydb](https://www.openbreweryd
 - /breweries/{brewery}
 ( search: http://localhost/api/breweries/101 )
 
+Note: localhost could be replaced with a virtual host
+( http://laravel-8-api-example/api/breweries/101 )
 
 ## Available Tests
 ...\tests\Feature\
